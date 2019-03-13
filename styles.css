@@ -1,0 +1,117 @@
+body {
+  font-size: 24px;
+}
+.centre {
+  text-align: center;
+}
+
+a {
+  text-transform: uppercase;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.banner-img {
+  height: 600px !important;
+  width: 100% !important;
+}
+
+#about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1.9;
+}
+
+#services {
+  background: #efefef;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title {
+  padding-top: 40px;
+}
+
+#mission {
+  margin-top: 40px;
+}
+
+div#address {
+    padding-top: 30px;
+}
+
+#button {
+  background: #ffbb07;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  /* add your code below this line */
+  animation-fill-mode: forwards;
+  /* add your code above this line */
+}
+@keyframes background-color {
+  100% {
+    background-color: #4791d0;
+  }
+}
+#testimonials {
+  margin-top: 100px;
+}
+
+footer {
+  background: black;
+  margin-top: 50px;
+}
+
+p.footnote {
+    padding-top: 20px;
+}
+
+footer p {
+  margin: 0 0 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  /* #menu {
+    display: none !important;
+  }
+
+  .title {
+    padding-top: 30px;
+  } */
+
+  #services {
+    height: 800px;
+  }
+
+  /* #padded {
+    padding-top: 20px;
+  }
+
+  .container {
+    overflow: hidden;
+  } */
+}
+
+@media only screen and (max-width: 480px ) {
+  /* .container {
+    overflow: hidden;
+  } */
+
+  #services {
+    height: 1000px;
+  }
+
+  .footer {
+        padding-top: px;
+    }
+    
+}
